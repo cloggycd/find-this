@@ -1,0 +1,407 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice 4.1.1  (Unix)">
+	<META NAME="AUTHOR" CONTENT="Fe Vir">
+	<META NAME="CREATED" CONTENT="20150601;14290600">
+	<META NAME="CHANGEDBY" CONTENT="Fe Vir">
+	<META NAME="CHANGED" CONTENT="20150601;14293300">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en" DIR="LTR">
+<PRE><A NAME="line1"></A>&lt;!DOCTYPE html
+<A NAME="line2"></A>    PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot;
+<A NAME="line3"></A>    &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+<A NAME="line4"></A>&lt;html xml:lang=&quot;en&quot; lang=&quot;en&quot; xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+<A NAME="line5"></A>&lt;head&gt;
+<A NAME="line6"></A>
+<A NAME="line7"></A>&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+<A NAME="line8"></A>&lt;!-- 
+<A NAME="line9"></A>        This website is powered by TYPO3 - inspiring people to share!
+<A NAME="line10"></A>        TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+<A NAME="line11"></A>        TYPO3 is copyright 1998-2015 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+<A NAME="line12"></A>        Information and contribution at http://typo3.org/
+<A NAME="line13"></A>--&gt;
+<A NAME="line14"></A>
+<A NAME="line15"></A>
+<A NAME="line16"></A>
+<A NAME="line17"></A>&lt;title&gt;Bank Code/BIC Search&lt;/title&gt;
+<A NAME="line18"></A>&lt;meta name=&quot;generator&quot; content=&quot;TYPO3 CMS 6.2&quot; /&gt;
+<A NAME="line19"></A>&lt;meta name=&quot;description&quot; content=&quot;Find bank codes, bank names, SWIFT BIC codes etc. based on bank names, bank codes, BIC etc.; several countries are supported.&quot; /&gt;
+<A NAME="line20"></A>&lt;meta name=&quot;keywords&quot; content=&quot;bank code, sort code, validation, SWIFT, BIC, bankleitzahl, bank code search, lookup BIC, lookup bank code, ABI, CAB&quot; /&gt;
+<A NAME="line21"></A>&lt;meta name=&quot;author&quot; content=&quot;Dr. Rainer Typke + Dr. Agatha Walczak-Typke&quot; /&gt;
+<A NAME="line22"></A>&lt;meta name=&quot;robots&quot; content=&quot;index, follow&quot; /&gt;
+<A NAME="line23"></A>&lt;meta name=&quot;MSSmartTagsPreventParsing&quot; content=&quot;true&quot; /&gt;
+<A NAME="line24"></A>&lt;meta name=&quot;imagetoolbar&quot; content=&quot;false&quot; /&gt;
+<A NAME="line25"></A>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot; /&gt;
+<A NAME="line26"></A>
+<A NAME="line27"></A>
+<A NAME="line28"></A>
+<A NAME="line29"></A>
+<A NAME="line30"></A>
+<A NAME="line31"></A>
+<A NAME="line32"></A>
+<A NAME="line33"></A>
+<A NAME="line34"></A>
+<A NAME="line35"></A>&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;<A HREF="view-source:http://cdn.iban-rechner.de/cdn/css/ibanrechcdn201403-m.css">http://cdn.iban-rechner.de/cdn/css/ibanrechcdn201403-m.css</A>&quot; /&gt;&lt;meta name=&quot;google-site-verification&quot; content=&quot;dPIecwOWdht0SRv_Cs-9wV17On2Y10w6Eur5gAjp5nk&quot; /&gt;&lt;script type='text/javascript'&gt;
+<A NAME="line36"></A>var googletag = googletag || {};
+<A NAME="line37"></A>googletag.cmd = googletag.cmd || [];
+<A NAME="line38"></A>(function() {
+<A NAME="line39"></A>var gads = document.createElement('script');
+<A NAME="line40"></A>gads.async = true;
+<A NAME="line41"></A>gads.type = 'text/javascript';
+<A NAME="line42"></A>var useSSL = 'https:' == document.location.protocol;
+<A NAME="line43"></A>gads.src = (useSSL ? 'https:' : 'http:') +
+<A NAME="line44"></A>'//www.googletagservices.com/tag/js/gpt.js';
+<A NAME="line45"></A>var node = document.getElementsByTagName('script')[0];
+<A NAME="line46"></A>node.parentNode.insertBefore(gads, node);
+<A NAME="line47"></A>})();
+<A NAME="line48"></A>&lt;/script&gt;
+<A NAME="line49"></A>
+<A NAME="line50"></A>&lt;script type='text/javascript'&gt;
+<A NAME="line51"></A>googletag.cmd.push(function() {
+<A NAME="line52"></A>googletag.defineSlot('/1058773/medrect-mainpage', [300, 250], 'div-gpt-ad-1418293808982-0').addService(googletag.pubads());
+<A NAME="line53"></A>googletag.pubads().enableSingleRequest();
+<A NAME="line54"></A>googletag.pubads().setTargeting(&quot;domain&quot;,&quot;ibancalculator.com&quot;);
+<A NAME="line55"></A>googletag.enableServices();
+<A NAME="line56"></A>});
+<A NAME="line57"></A>&lt;/script&gt;
+<A NAME="line58"></A>
+<A NAME="line59"></A>
+<A NAME="line60"></A>&lt;/head&gt;
+<A NAME="line61"></A>&lt;body&gt;
+<A NAME="line62"></A>
+<A NAME="line63"></A>
+<A NAME="line64"></A>
+<A NAME="line65"></A>
+<A NAME="line66"></A>
+<A NAME="line67"></A>
+<A NAME="line68"></A>
+<A NAME="line69"></A>
+<A NAME="line70"></A>&lt;div id=&quot;shell&quot;&gt;
+<A NAME="line71"></A>  &lt;div id=&quot;langwrapper&quot;&gt;
+<A NAME="line72"></A>    &lt;div id=&quot;lang&quot;&gt;
+<A NAME="line73"></A>      &lt;div class=&quot;liquidlangtop-left&quot;&gt;&lt;/div&gt;
+<A NAME="line74"></A>      &lt;div class=&quot;liquidlangtop-right&quot;&gt;&lt;/div&gt;
+<A NAME="line75"></A>      &lt;div class=&quot;liquidlanginsideleft&quot;&gt;
+<A NAME="line76"></A>        &lt;div class=&quot;liquidlanginsideright&quot;&gt; 
+<A NAME="line77"></A>          &lt;div class=&quot;liquidlanginside&quot;&gt;
+<A NAME="line78"></A>            &lt;p class=&quot;liquidlangnotopgap&quot;&gt;
+<A NAME="line79"></A>              &lt;a href=&quot;<A HREF="view-source:http://www.iban-rechner.de/blz.html">http://www.iban-rechner.de/blz.html</A>&quot; title=&quot;Diese Seite auf deutsch&quot;&gt;DE&lt;/a&gt;&lt;span class=&quot;orangebullet&quot;&gt;&amp;nbsp;&amp;diams;&amp;nbsp;&lt;/span&gt;&lt;a class=&quot;on&quot;&gt;EN&lt;/a&gt;&lt;span class=&quot;orangebullet&quot;&gt;&amp;nbsp;&amp;diams;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;<A HREF="view-source:http://es.ibancalculator.com/blz.html">http://es.ibancalculator.com/blz.html</A>&quot; title=&quot;Espa&amp;ntilde;ol&quot;&gt;ES&lt;/a&gt;&lt;span class=&quot;orangebullet&quot;&gt;&amp;nbsp;&amp;diams;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;<A HREF="view-source:http://it.ibancalculator.com/blz.html">http://it.ibancalculator.com/blz.html</A>&quot; title=&quot;Italiano&quot;&gt;IT&lt;/a&gt;&lt;span class=&quot;orangebullet&quot;&gt;&amp;nbsp;&amp;diams;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;<A HREF="view-source:http://nl.ibancalculator.com/blz.html">http://nl.ibancalculator.com/blz.html</A>&quot; title=&quot;Deze pagina in het Nederlands&quot;&gt;NL&lt;/a&gt;&lt;span class=&quot;orangebullet&quot;&gt;&amp;nbsp;&amp;diams;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;<A HREF="view-source:http://pl.ibancalculator.com/blz.html">http://pl.ibancalculator.com/blz.html</A>&quot; title=&quot;Polski&quot;&gt;PL&lt;/a&gt;
+<A NAME="line80"></A>            &lt;/p&gt;
+<A NAME="line81"></A>            &lt;p class=&quot;liquidlangnobottomgap&quot;&gt;&lt;/p&gt;
+<A NAME="line82"></A>          &lt;/div&gt;
+<A NAME="line83"></A>        &lt;/div&gt;
+<A NAME="line84"></A>      &lt;/div&gt;
+<A NAME="line85"></A>      &lt;div class=&quot;liquidlangbottom-left&quot;&gt;&lt;/div&gt;
+<A NAME="line86"></A>      &lt;div class=&quot;liquidlangbottom-right&quot;&gt;&lt;/div&gt;
+<A NAME="line87"></A>    &lt;/div&gt;&lt;!-- CLOSE #lang--&gt;
+<A NAME="line88"></A>  &lt;/div&gt;&lt;!-- close #langwrapper--&gt;
+<A NAME="line89"></A>  &lt;div id=&quot;contentshell&quot;&gt;
+<A NAME="line90"></A>    &lt;b class=&quot;contentshelltop&quot;&gt;&lt;b class=&quot;contentshellb1&quot;&gt;&lt;/b&gt;&lt;b class=&quot;contentshellb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;contentshellb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;contentshellb4&quot;&gt;&lt;/b&gt;&lt;/b&gt;
+<A NAME="line91"></A>    &lt;div id=&quot;Navelbar&quot;&gt;
+<A NAME="line92"></A>      &lt;div id=&quot;logo&quot; onmouseover=&quot;this.style.cursor='pointer';&quot; onclick=&quot;window.location.href='/'&quot; onmouseout=&quot;this.style.cursor='default';&quot;&gt;&lt;/div&gt; 
+<A NAME="line93"></A>      &lt;div id=&quot;bevelwrapper&quot;&gt;
+<A NAME="line94"></A>        &lt;div class=&quot;beveltop&quot;&gt;
+<A NAME="line95"></A>          &lt;div class=&quot;bevelbottom&quot;&gt;
+<A NAME="line96"></A>            &lt;div class=&quot;bevelleft&quot;&gt;
+<A NAME="line97"></A>              &lt;div class=&quot;bevelright&quot;&gt;
+<A NAME="line98"></A>                &lt;div class=&quot;bevelBL&quot;&gt;
+<A NAME="line99"></A>                  &lt;div class=&quot;bevelBR&quot;&gt;
+<A NAME="line100"></A>                    &lt;div class=&quot;bevelTL&quot;&gt;
+<A NAME="line101"></A>                      &lt;div class=&quot;bevelTR&quot;&gt;
+<A NAME="line102"></A>                        &lt;div id=&quot;mainNavig&quot;&gt;
+<A NAME="line103"></A>                          &lt;div class=&quot;tx-mainnav-pi1&quot;&gt;
+<A NAME="line104"></A>                &lt;ul&gt;&lt;li&gt;&lt;a title=&quot;IBAN conversion or validation, BIC search&quot; href=&quot;<A HREF="view-source:http://www.ibancalculator.com/iban_berechnen_bic.html">iban_berechnen_bic.html</A>&quot; class=&quot;iban_berechnen_bicon&quot;&gt;Find&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a title=&quot;In case of an incorrectly calculated IBAN, we cover up to 25 EUR&quot; href=&quot;<A HREF="view-source:http://www.ibancalculator.com/guarantee.html">guarantee.html</A>&quot; class=&quot;guarantee&quot;&gt;Guarantee&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a title=&quot;frequently asked questions&quot; href=&quot;<A HREF="view-source:http://www.ibancalculator.com/faq.html">faq.html</A>&quot; class=&quot;faq&quot;&gt;FAQ&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a title=&quot;A description of what data are collected, why, and how long they are stored&quot; href=&quot;<A HREF="view-source:http://www.ibancalculator.com/privacy.html">privacy.html</A>&quot; class=&quot;privacy&quot;&gt;Privacy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a title=&quot;Contact information&quot; href=&quot;<A HREF="view-source:http://www.ibancalculator.com/contact.html">contact.html</A>&quot; class=&quot;contact&quot;&gt;About&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
+<A NAME="line105"></A>        &lt;/div&gt;
+<A NAME="line106"></A>        
+<A NAME="line107"></A>                        &lt;/div&gt;
+<A NAME="line108"></A>                        &lt;div id=&quot;subNav&quot;&gt;
+<A NAME="line109"></A>                          &lt;b class=&quot;subnavb1&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb7&quot;&gt;&lt;/b&gt;
+<A NAME="line110"></A>                          &lt;div id=&quot;subNavcontent&quot;&gt;
+<A NAME="line111"></A>                            &lt;div class=&quot;subNavLinks&quot;&gt;    
+<A NAME="line112"></A>                              &lt;div class=&quot;tx-subnav-pi1&quot;&gt;
+<A NAME="line113"></A>                &lt;a href=&quot;<A HREF="view-source:http://www.ibancalculator.com/bic_und_iban.html">bic_und_iban.html</A>&quot; title=&quot;Determine the international bank account number (IBAN) based on the sort code (bank code) and account number or national equivalent. For some countries, the BIC is shown as well.&quot; class=&quot;subNavLinks&quot;&gt;Calculate an IBAN&lt;/a&gt; &lt;span class=&quot;orangepipe&quot;&gt;&amp;#124;&lt;/span&gt;
+<A NAME="line114"></A>  &lt;a href=&quot;<A HREF="view-source:http://www.ibancalculator.com/iban_validieren.html">iban_validieren.html</A>&quot; title=&quot;For some countries, we check not just the IBAN checksum, but also the validity of the bank code and account numbers that are contained in the IBAN.&quot; class=&quot;subNavLinks&quot;&gt;Check an IBAN&lt;/a&gt; &lt;span class=&quot;orangepipe&quot;&gt;&amp;#124;&lt;/span&gt;
+<A NAME="line115"></A>  &lt;a href=&quot;<A HREF="view-source:http://www.ibancalculator.com/validate_account_no.html">validate_account_no.html</A>&quot; title=&quot;Check whether the checksum inside an account number is correct.&quot; class=&quot;subNavLinks&quot;&gt;Check account number&lt;/a&gt; &lt;span class=&quot;orangepipe&quot;&gt;&amp;#124;&lt;/span&gt;
+<A NAME="line116"></A>  &lt;a href=&quot;<A HREF="view-source:http://www.ibancalculator.com/blz.html">blz.html</A>&quot; title=&quot;You can either enter the bank name and city to determine the bank code (or sort code) and BIC, or you can enter the sort code and find out the bank name, city, and BIC.&quot; class=&quot;subNavLinks&quot;&gt;Find bank/bank code/BIC&lt;/a&gt;
+<A NAME="line117"></A>        &lt;/div&gt;
+<A NAME="line118"></A>        
+<A NAME="line119"></A>                            &lt;/div&gt;
+<A NAME="line120"></A>                          &lt;/div&gt;
+<A NAME="line121"></A>                          &lt;b class=&quot;subnavb7&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;subnavb1&quot;&gt;&lt;/b&gt;                  
+<A NAME="line122"></A>                        &lt;/div&gt;
+<A NAME="line123"></A>                      &lt;/div&gt;
+<A NAME="line124"></A>                    &lt;/div&gt;
+<A NAME="line125"></A>                  &lt;/div&gt;
+<A NAME="line126"></A>                &lt;/div&gt;
+<A NAME="line127"></A>              &lt;/div&gt;
+<A NAME="line128"></A>            &lt;/div&gt;
+<A NAME="line129"></A>          &lt;/div&gt;
+<A NAME="line130"></A>        &lt;/div&gt;
+<A NAME="line131"></A>      &lt;/div&gt;
+<A NAME="line132"></A>    &lt;/div&gt;&lt;!-- close Navelbar--&gt;
+<A NAME="line133"></A>    &lt;div id=&quot;container&quot; class=&quot;wrapper_extra&quot;&gt;
+<A NAME="line134"></A>    
+<A NAME="line135"></A>    &lt;div id=&quot;breadsearchwrapper&quot;&gt;
+<A NAME="line136"></A>      &lt;div id=&quot;breadwrapper&quot;&gt;
+<A NAME="line137"></A>        &lt;div id=&quot;bread&quot;&gt;
+<A NAME="line138"></A>          &lt;div class=&quot;liquidbreadtop-left&quot;&gt;&lt;/div&gt;
+<A NAME="line139"></A>          &lt;div class=&quot;liquidbreadtop-right&quot;&gt;&lt;/div&gt;
+<A NAME="line140"></A>          &lt;div class=&quot;liquidbreadinsideleft&quot;&gt;
+<A NAME="line141"></A>            &lt;div class=&quot;liquidbreadinsideright&quot;&gt; 
+<A NAME="line142"></A>              &lt;div class=&quot;liquidbreadinside&quot;&gt;
+<A NAME="line143"></A>                &lt;p class=&quot;liquidbreadnotopgap&quot;&gt;
+<A NAME="line144"></A>                  &lt;a href=&quot;<A HREF="view-source:http://www.ibancalculator.com/iban_and_bic.html">iban_and_bic.html</A>&quot; title=&quot;  Main Page&quot;&gt;IBAN Calculator&lt;/a&gt;  &lt;span class=&quot;orangebullet&quot;&gt;&amp;raquo;&amp;nbsp;&lt;/span&gt;&lt;a href=&quot;<A HREF="view-source:http://www.ibancalculator.com/iban_berechnen_bic.html">iban_berechnen_bic.html</A>&quot; title=&quot;  IBAN conversion or validation, BIC search&quot;&gt;Find&lt;/a&gt;  &lt;span class=&quot;orangebullet&quot;&gt;&amp;raquo;&amp;nbsp;&lt;/span&gt;Find bank/bank code/BIC              
+<A NAME="line145"></A>                &lt;/p&gt;
+<A NAME="line146"></A>                &lt;p class=&quot;liquidbreadnobottomgap&quot;&gt;&lt;/p&gt;
+<A NAME="line147"></A>              &lt;/div&gt;
+<A NAME="line148"></A>            &lt;/div&gt;
+<A NAME="line149"></A>          &lt;/div&gt;
+<A NAME="line150"></A>          &lt;div class=&quot;liquidbreadbottom-left&quot;&gt;&lt;/div&gt;
+<A NAME="line151"></A>          &lt;div class=&quot;liquidbreadbottom-right&quot;&gt;&lt;/div&gt;
+<A NAME="line152"></A>        &lt;/div&gt;
+<A NAME="line153"></A>      &lt;/div&gt;&lt;!-- close breadwrapper--&gt;
+<A NAME="line154"></A>      &lt;div id=&quot;liquidsearch&quot;&gt;
+<A NAME="line155"></A>        &lt;div class=&quot;liquidbreadtop-left&quot;&gt;&lt;/div&gt;
+<A NAME="line156"></A>        &lt;div class=&quot;liquidbreadtop-right&quot;&gt;&lt;/div&gt;
+<A NAME="line157"></A>          &lt;div class=&quot;liquidbreadinsideleft&quot;&gt;
+<A NAME="line158"></A>            &lt;div class=&quot;liquidbreadinsideright&quot;&gt; 
+<A NAME="line159"></A>              &lt;div class=&quot;liquidbreadinside&quot;&gt;
+<A NAME="line160"></A>                &lt;p class=&quot;liquidbreadnotopgap&quot;&gt;&lt;/p&gt;
+<A NAME="line161"></A>                  
+<A NAME="line162"></A>
+<A NAME="line163"></A>&lt;form action=&quot;<A HREF="view-source:http://www.ibancalculator.com/searchres.html">http://www.ibancalculator.com/searchres.html</A>&quot; id=&quot;cse-search-box&quot;&gt;
+<A NAME="line164"></A>  &lt;div&gt;
+<A NAME="line165"></A>    &lt;input type=&quot;hidden&quot; name=&quot;cx&quot; value=&quot;partner-pub-6778158074239566:7251176395&quot; /&gt;
+<A NAME="line166"></A>    &lt;input type=&quot;hidden&quot; name=&quot;cof&quot; value=&quot;FORID:10&quot; /&gt;
+<A NAME="line167"></A>    &lt;input type=&quot;hidden&quot; name=&quot;ie&quot; value=&quot;UTF-8&quot; /&gt;
+<A NAME="line168"></A>    &lt;input type=&quot;text&quot; name=&quot;q&quot; size=&quot;25&quot; class=&quot;searchsmall&quot;/&gt;
+<A NAME="line169"></A>    &lt;input type=&quot;submit&quot; name=&quot;sa&quot; value=&quot;Search&quot; class=&quot;submitsmall&quot;/&gt;
+<A NAME="line170"></A>  &lt;/div&gt;
+<A NAME="line171"></A>&lt;/form&gt;
+<A NAME="line172"></A>
+<A NAME="line173"></A>&lt;script type=&quot;text/javascript&quot; src=&quot;<A HREF="view-source:http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en">http://www.google.com/coop/cse/brand?form=cse-search-box&amp;amp;lang=en</A>&quot;&gt;&lt;/script&gt;
+<A NAME="line174"></A> 
+<A NAME="line175"></A>                &lt;p class=&quot;liquidbreadnobottomgap&quot;&gt;&lt;/p&gt;
+<A NAME="line176"></A>              &lt;/div&gt;
+<A NAME="line177"></A>            &lt;/div&gt;
+<A NAME="line178"></A>          &lt;/div&gt;
+<A NAME="line179"></A>        &lt;div class=&quot;liquidbreadbottom-left&quot;&gt;&lt;/div&gt;
+<A NAME="line180"></A>        &lt;div class=&quot;liquidbreadbottom-right&quot;&gt;&lt;/div&gt;
+<A NAME="line181"></A>      &lt;/div&gt;
+<A NAME="line182"></A>    &lt;/div&gt;&lt;!-- clase breadsearchwrapper--&gt;
+<A NAME="line183"></A>    
+<A NAME="line184"></A>    &lt;div class=&quot;wrapper&quot;&gt;&lt;!-- wrapper around all --&gt;   
+<A NAME="line185"></A>      &lt;div id=&quot;group_all&quot;&gt;
+<A NAME="line186"></A>        &lt;div class=&quot;wrapper_extra&quot;&gt;
+<A NAME="line187"></A>          &lt;div class=&quot;wrapper&quot;&gt;
+<A NAME="line188"></A>            &lt;div id=&quot;group_thinmainlong&quot;&gt;                 
+<A NAME="line189"></A>              &lt;div id=&quot;group_thinmain&quot; class=&quot;wrapper_extra&quot;&gt;
+<A NAME="line190"></A>                &lt;div class=&quot;wrapper&quot;&gt;&lt;!-- wrapper around block_main and thincol --&gt;                 
+<A NAME="line191"></A>
+<A NAME="line192"></A>                  &lt;div id=&quot;block_main&quot;&gt;
+<A NAME="line193"></A>                    &lt;div class=&quot;roundedtop&quot;&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;/div&gt;
+<A NAME="line194"></A>                      &lt;h1&gt;Find Bank Codes and BICs&lt;/h1&gt;&lt;div class=&quot;tx-blz-pi1&quot;&gt;
+<A NAME="line195"></A>                &lt;form action=&quot;<A HREF="view-source:http://www.ibancalculator.com/blz.html">blz.html</A>&quot; method=&quot;post&quot;&gt;
+<A NAME="line196"></A>&lt;p&gt;Country:&lt;/p&gt; &lt;span class='inText_ignore'&gt;
+<A NAME="line197"></A>&lt;select name=&quot;tx_blz_pi1[country]&quot; size=&quot;1&quot;&gt;
+<A NAME="line198"></A>&lt;option value=&quot;all&quot; selected=&quot;selected&quot;&gt;all&lt;/option&gt;&lt;option value=&quot;AT&quot; &gt;Austria&lt;/option&gt;&lt;option value=&quot;BE&quot; &gt;Belgium&lt;/option&gt;&lt;option value=&quot;BG&quot; &gt;Bulgaria&lt;/option&gt;&lt;option value=&quot;CZ&quot; &gt;Czech Republic&lt;/option&gt;&lt;option value=&quot;CY&quot; &gt;Cyprus&lt;/option&gt;&lt;option value=&quot;DK&quot; &gt;Denmark&lt;/option&gt;&lt;option value=&quot;EE&quot; &gt;Estonia&lt;/option&gt;&lt;option value=&quot;FI&quot; &gt;Finland&lt;/option&gt;&lt;option value=&quot;FR&quot; &gt;France&lt;/option&gt;&lt;option value=&quot;DE&quot; &gt;Germany&lt;/option&gt;&lt;option value=&quot;GI&quot; &gt;Gibraltar&lt;/option&gt;&lt;option value=&quot;GR&quot; &gt;Greece&lt;/option&gt;&lt;option value=&quot;HU&quot; &gt;Hungary&lt;/option&gt;&lt;option value=&quot;IE&quot; &gt;Ireland&lt;/option&gt;&lt;option value=&quot;IS&quot; &gt;Iceland&lt;/option&gt;&lt;option value=&quot;IT&quot; &gt;Italy&lt;/option&gt;&lt;option value=&quot;LI&quot; &gt;Liechtenstein&lt;/option&gt;&lt;option value=&quot;LT&quot; &gt;Lithuania&lt;/option&gt;&lt;option value=&quot;LU&quot; &gt;Luxembourg&lt;/option&gt;&lt;option value=&quot;LV&quot; &gt;Latvia&lt;/option&gt;&lt;option value=&quot;MC&quot; &gt;Monaco&lt;/option&gt;&lt;option value=&quot;MT&quot; &gt;Malta&lt;/option&gt;&lt;option value=&quot;NL&quot; &gt;Netherlands&lt;/option&gt;&lt;option value=&quot;NO&quot; &gt;Norway&lt;/option&gt;&lt;option value=&quot;PL&quot; &gt;Poland&lt;/option&gt;&lt;option value=&quot;PT&quot; &gt;Portugal&lt;/option&gt;&lt;option value=&quot;RO&quot; &gt;Romania&lt;/option&gt;&lt;option value=&quot;SE&quot; &gt;Sweden&lt;/option&gt;&lt;option value=&quot;CH&quot; &gt;Switzerland&lt;/option&gt;&lt;option value=&quot;SI&quot; &gt;Slovenia&lt;/option&gt;&lt;option value=&quot;SK&quot; &gt;Slovakia&lt;/option&gt;&lt;option value=&quot;ES&quot; &gt;Spain&lt;/option&gt;&lt;option value=&quot;GB&quot; &gt;United Kingdom&lt;/option&gt;&lt;/select&gt;&lt;/span&gt;&lt;br/&gt;&lt;p&gt;&lt;i&gt;Please fill one field, or both:&lt;/i&gt;&lt;/p&gt;&lt;p&gt;Search terms (bank name etc.)&lt;/p&gt;
+<A NAME="line199"></A>                        &lt;input type=&quot;text&quot; size=&quot;22&quot; name=&quot;tx_blz_pi1[searchterms]&quot; value=&quot;&quot;/&gt;&lt;p&gt;
+<A NAME="line200"></A>Bank code or BIC&lt;/p&gt;
+<A NAME="line201"></A>                        &lt;input type=&quot;text&quot; size=&quot;22&quot; name=&quot;tx_blz_pi1[bankcode]&quot; value=&quot;&quot;/&gt;&lt;br/&gt;
+<A NAME="line202"></A>&lt;br/&gt;
+<A NAME="line203"></A>                &lt;input type=&quot;hidden&quot; name=&quot;tx_blz_pi1[fi]&quot; value=&quot;fi&quot;/&gt;
+<A NAME="line204"></A>&lt;input type=&quot;hidden&quot; name=&quot;no_cache&quot; value=&quot;1&quot;/&gt;
+<A NAME="line205"></A>
+<A NAME="line206"></A>&lt;input type=&quot;submit&quot; class=&quot;submit&quot; style=&quot;height:21px;font-size:11px&quot; name=&quot;Action&quot; value=&quot;Search&quot; title=&quot; Search &quot;/&gt;&lt;br/&gt;&lt;/form&gt;&lt;br/&gt;
+<A NAME="line207"></A>
+<A NAME="line208"></A>        &lt;/div&gt;
+<A NAME="line209"></A>        &lt;div class=&quot;candy&quot;&gt;
+<A NAME="line210"></A>&lt;!--/* Revive Adserver Javascript Tag v3.0.3 */--&gt;
+<A NAME="line211"></A>
+<A NAME="line212"></A>&lt;script type='text/javascript'&gt;&lt;!--//&lt;![CDATA[
+<A NAME="line213"></A>   var m3_u = (location.protocol=='https:'?'https://ssla.typke.com/oxdel/myajsmy.php':'http://pwox.rcmwi.de/ox/www/delivery/myajsmy.php');
+<A NAME="line214"></A>   var m3_r = Math.floor(Math.random()*99999999999);
+<A NAME="line215"></A>   if (!document.MAX_used) document.MAX_used = ',';
+<A NAME="line216"></A>   document.write (&quot;&lt;scr&quot;+&quot;ipt type='text/javascript' src='&quot;+m3_u);
+<A NAME="line217"></A>   document.write (&quot;?zoneid=9&quot;);
+<A NAME="line218"></A>   document.write ('&amp;amp;cb=' + m3_r);
+<A NAME="line219"></A>   if (document.MAX_used != ',') document.write (&quot;&amp;amp;exclude=&quot; + document.MAX_used);
+<A NAME="line220"></A>   document.write (document.charset ? '&amp;amp;charset='+document.charset : (document.characterSet ? '&amp;amp;charset='+document.characterSet : ''));
+<A NAME="line221"></A>   document.write (&quot;&amp;amp;loc=&quot; + escape(window.location));
+<A NAME="line222"></A>   if (document.referrer) document.write (&quot;&amp;amp;referer=&quot; + escape(document.referrer));
+<A NAME="line223"></A>   if (document.context) document.write (&quot;&amp;context=&quot; + escape(document.context));
+<A NAME="line224"></A>   if (document.mmm_fo) document.write (&quot;&amp;amp;mmm_fo=1&quot;);
+<A NAME="line225"></A>   document.write (&quot;'&gt;&lt;\/scr&quot;+&quot;ipt&gt;&quot;);
+<A NAME="line226"></A>//]]&gt;--&gt;&lt;/script&gt;
+<A NAME="line227"></A>&lt;noscript&gt;
+<A NAME="line228"></A>&lt;a href=&quot;/javascript.html&quot;&gt;
+<A NAME="line229"></A>To use all features, please activate JavaScript!
+<A NAME="line230"></A>&lt;!--Um alle Funktionen richtig nutzen zu können, schalten Sie bitte JavaScript ein.--&gt;
+<A NAME="line231"></A>&lt;/a&gt;
+<A NAME="line232"></A>&lt;/noscript&gt;
+<A NAME="line233"></A>&lt;/div&gt;
+<A NAME="line234"></A>                    &lt;div class=&quot;verticalalign&quot;&gt;
+<A NAME="line235"></A>                      &lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;                  
+<A NAME="line236"></A>                    &lt;/div&gt;&lt;!--end verticalalign--&gt;                         
+<A NAME="line237"></A>                  &lt;/div&gt;&lt;!--close block_main--&gt;
+<A NAME="line238"></A> 
+<A NAME="line239"></A>                   &lt;div id=&quot;thincol&quot;&gt;
+<A NAME="line240"></A>                    &lt;div class=&quot;roundedtop&quot;&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;/div&gt; 
+<A NAME="line241"></A>                      &lt;h2&gt;Premium Version&lt;/h2&gt;&lt;p&gt;Ideal for corporate clients:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Mass Calculations:&lt;/b&gt; Process a whole CSV file at once.&lt;/li&gt;
+<A NAME="line242"></A>&lt;li&gt;&lt;a href=&quot;<A HREF="view-source:http://www.iban-bic.com/soap0.html?L=2">http://www.iban-bic.com/soap0.html?L=2</A>&quot; target=&quot;_blank&quot;&gt;SOAP Interface.&lt;/a&gt;&lt;/li&gt;
+<A NAME="line243"></A>&lt;li&gt;Secure SSL connection.&lt;/li&gt;
+<A NAME="line244"></A>&lt;li&gt;Try mass calculations or the SOAP interface for free using the &lt;b&gt;Welcome Bonus Points&lt;/b&gt;.&lt;/li&gt;
+<A NAME="line245"></A>&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;/ul&gt;&lt;p&gt;&lt;a href=&quot;<A HREF="view-source:http://en.iban-bic.com/">http://en.iban-bic.com</A>&quot; target=&quot;_blank&quot;&gt;&lt;b&gt;Premium registration...&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;   
+<A NAME="line246"></A>                    &lt;div class=&quot;verticalalign&quot;&gt;
+<A NAME="line247"></A>                      &lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;                  
+<A NAME="line248"></A>                    &lt;/div&gt;&lt;!--end verticalalign--&gt;
+<A NAME="line249"></A>                  &lt;/div&gt;&lt;!-- end thincol--&gt;                  
+<A NAME="line250"></A>
+<A NAME="line251"></A>                &lt;/div&gt;&lt;!-- close div.wrapper around thincol and main_block  --&gt;
+<A NAME="line252"></A>              &lt;/div&gt;&lt;!-- close div.wrapper_extra group thinmain--&gt;
+<A NAME="line253"></A>
+<A NAME="line254"></A>              &lt;div id=&quot;group_leader&quot; class=&quot;wrapper_extra&quot;&gt;
+<A NAME="line255"></A>                &lt;div class=&quot;wrapper&quot;&gt;&lt;!--wrapper around leadercol--&gt;                
+<A NAME="line256"></A>                  
+<A NAME="line257"></A>                  &lt;div id=&quot;leadercol&quot;&gt;
+<A NAME="line258"></A>                    &lt;div class=&quot;roundedtop&quot;&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;/div&gt;
+<A NAME="line259"></A>                      &lt;div class=&quot;candy&quot;&gt;
+<A NAME="line260"></A>
+<A NAME="line261"></A>&lt;!--/* Revive Adserver Javascript Tag v3.0.3 */--&gt;
+<A NAME="line262"></A>
+<A NAME="line263"></A>&lt;script type='text/javascript'&gt;&lt;!--//&lt;![CDATA[
+<A NAME="line264"></A>   var m3_u = (location.protocol=='https:'?'https://ssla.typke.com/oxdel/myajsmy.php':'http://pwox.rcmwi.de/ox/www/delivery/myajsmy.php');
+<A NAME="line265"></A>   var m3_r = Math.floor(Math.random()*99999999999);
+<A NAME="line266"></A>   if (!document.MAX_used) document.MAX_used = ',';
+<A NAME="line267"></A>   document.write (&quot;&lt;scr&quot;+&quot;ipt type='text/javascript' src='&quot;+m3_u);
+<A NAME="line268"></A>   document.write (&quot;?zoneid=29&quot;);
+<A NAME="line269"></A>   document.write ('&amp;amp;cb=' + m3_r);
+<A NAME="line270"></A>   if (document.MAX_used != ',') document.write (&quot;&amp;amp;exclude=&quot; + document.MAX_used);
+<A NAME="line271"></A>   document.write (document.charset ? '&amp;amp;charset='+document.charset : (document.characterSet ? '&amp;amp;charset='+document.characterSet : ''));
+<A NAME="line272"></A>   document.write (&quot;&amp;amp;loc=&quot; + escape(window.location));
+<A NAME="line273"></A>   if (document.referrer) document.write (&quot;&amp;amp;referer=&quot; + escape(document.referrer));
+<A NAME="line274"></A>   if (document.context) document.write (&quot;&amp;context=&quot; + escape(document.context));
+<A NAME="line275"></A>   if (document.mmm_fo) document.write (&quot;&amp;amp;mmm_fo=1&quot;);
+<A NAME="line276"></A>   document.write (&quot;'&gt;&lt;\/scr&quot;+&quot;ipt&gt;&quot;);
+<A NAME="line277"></A>//]]&gt;--&gt;&lt;/script&gt;&lt;noscript&gt;&lt;a href='http://pwox.rcmwi.de/ox/www/delivery/myckmy.php?n=aa2be880&amp;amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'&gt;&lt;img src='http://pwox.rcmwi.de/ox/www/delivery/myavwmy.php?zoneid=29&amp;amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;amp;n=aa2be880' border='0' alt='' /&gt;&lt;/a&gt;&lt;/noscript&gt;
+<A NAME="line278"></A>
+<A NAME="line279"></A>
+<A NAME="line280"></A>&lt;/div&gt;
+<A NAME="line281"></A>                    &lt;div class=&quot;verticalalign&quot;&gt;
+<A NAME="line282"></A>                      &lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;                  
+<A NAME="line283"></A>                    &lt;/div&gt;&lt;!--end verticalalign--&gt;                  
+<A NAME="line284"></A>                  &lt;/div&gt;&lt;!--end leadercol--&gt;  
+<A NAME="line285"></A>                              
+<A NAME="line286"></A>                &lt;/div&gt;&lt;!-- close div.wrapper around leadercol--&gt;
+<A NAME="line287"></A>              &lt;/div&gt;&lt;!-- close div.wrapper_extra group_leader--&gt;
+<A NAME="line288"></A>  
+<A NAME="line289"></A>            &lt;/div&gt;&lt;!-- close div#group_thinmainlong --&gt;        
+<A NAME="line290"></A>            
+<A NAME="line291"></A>            &lt;div id=&quot;widecol&quot;&gt;
+<A NAME="line292"></A>              &lt;div class=&quot;roundedtop&quot;&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;/div&gt;                      
+<A NAME="line293"></A>                &lt;div class=&quot;candy&quot;&gt;
+<A NAME="line294"></A>
+<A NAME="line295"></A>&lt;!--/* OpenX Javascript Tag v2.8.5 */--&gt;
+<A NAME="line296"></A>
+<A NAME="line297"></A>&lt;script type='text/javascript'&gt;&lt;!--//&lt;![CDATA[
+<A NAME="line298"></A>   var m3_u = (location.protocol=='https:'?'https://ssla.typke.com/oxdel/myajsmy.php':'http://pwox.rcmwi.de/ox/www/delivery/myajsmy.php');
+<A NAME="line299"></A>   var m3_r = Math.floor(Math.random()*99999999999);
+<A NAME="line300"></A>   if (!document.MAX_used) document.MAX_used = ',';
+<A NAME="line301"></A>   document.write (&quot;&lt;scr&quot;+&quot;ipt type='text/javascript' src='&quot;+m3_u);
+<A NAME="line302"></A>   document.write (&quot;?zoneid=21&quot;);
+<A NAME="line303"></A>   document.write ('&amp;cb=' + m3_r);
+<A NAME="line304"></A>   if (document.MAX_used != ',') document.write (&quot;&amp;exclude=&quot; + document.MAX_used);
+<A NAME="line305"></A>   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+<A NAME="line306"></A>   document.write (&quot;&amp;loc=&quot; + escape(window.location));
+<A NAME="line307"></A>   if (document.referrer) document.write (&quot;&amp;referer=&quot; + escape(document.referrer));
+<A NAME="line308"></A>   if (document.context) document.write (&quot;&amp;context=&quot; + escape(document.context));
+<A NAME="line309"></A>   if (document.mmm_fo) document.write (&quot;&amp;mmm_fo=1&quot;);
+<A NAME="line310"></A>   document.write (&quot;'&gt;&lt;\/scr&quot;+&quot;ipt&gt;&quot;);
+<A NAME="line311"></A>//]]&gt;--&gt;&lt;/script&gt;&lt;noscript&gt;&lt;a href='http://pwox.rcmwi.de/ox/www/delivery/myckmy.php?n=a2a966f1&amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'&gt;&lt;img src='http://pwox.rcmwi.de/ox/www/delivery/myavwmy.php?zoneid=21&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a2a966f1' border='0' alt='' /&gt;&lt;/a&gt;&lt;/noscript&gt;
+<A NAME="line312"></A>
+<A NAME="line313"></A>
+<A NAME="line314"></A>&lt;/div&gt;                    
+<A NAME="line315"></A>              &lt;div class=&quot;verticalalign&quot;&gt;
+<A NAME="line316"></A>                &lt;b class=&quot;xb7&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb6&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb5&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;xb1&quot;&gt;&lt;/b&gt;                  
+<A NAME="line317"></A>              &lt;/div&gt;&lt;!--end verticalalign--&gt;       
+<A NAME="line318"></A>            &lt;/div&gt;&lt;!--end widecol--&gt;
+<A NAME="line319"></A>                             
+<A NAME="line320"></A>                        
+<A NAME="line321"></A>          &lt;/div&gt;&lt;!-- close div.wrapper --&gt;
+<A NAME="line322"></A>        &lt;/div&gt;&lt;!-- close div.wrapper_extra --&gt;
+<A NAME="line323"></A>      &lt;/div&gt;&lt;!-- close div#group_all --&gt;   
+<A NAME="line324"></A>    &lt;/div&gt;&lt;!-- close div.wrapper around all --&gt;   
+<A NAME="line325"></A>  &lt;/div&gt;&lt;!-- close div#container.wrapper_extra --&gt;
+<A NAME="line326"></A>
+<A NAME="line327"></A>  &lt;b class=&quot;contentshellbottom&quot;&gt;&lt;b class=&quot;contentshellb4&quot;&gt;&lt;/b&gt;&lt;b class=&quot;contentshellb3&quot;&gt;&lt;/b&gt;&lt;b class=&quot;contentshellb2&quot;&gt;&lt;/b&gt;&lt;b class=&quot;contentshellb1&quot;&gt;&lt;/b&gt;&lt;/b&gt;
+<A NAME="line328"></A>                       
+<A NAME="line329"></A>&lt;/div&gt;
+<A NAME="line330"></A>&lt;/div&gt;
+<A NAME="line331"></A>
+<A NAME="line332"></A>&lt;div id=&quot;footer&quot;&gt;
+<A NAME="line333"></A> &lt;img id=&quot;socmap&quot; src=&quot;<A HREF="view-source:http://www.ibancalculator.com/fileadmin/img/socialbookm.gif">/fileadmin/img/socialbookm.gif</A>&quot; usemap=&quot;#socmap&quot; border=&quot;0&quot; width=&quot;323&quot; height=&quot;22&quot; alt=&quot;&quot; /&gt;&lt;map id=&quot;_socmap&quot; name=&quot;socmap&quot;&gt;&lt;area shape=&quot;rect&quot; coords=&quot;1,1,21,21&quot; href=&quot;<A HREF="view-source:http://www.mister-wong.de/index.php?action=addurl&amp;bm_url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;bm_description=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.mister-wong.de/index.php?action=addurl&amp;amp;bm_url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;bm_description=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at mister wong&quot; title=&quot;bookmark at mister wong&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;22,1,41,21&quot; href=&quot;<A HREF="view-source:http://twitter.com/home?status=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html%20You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://twitter.com/home?status=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html%20You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;publish in twitter&quot; title=&quot;publish in twitter&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;42,1,61,21&quot; href=&quot;<A HREF="view-source:http://del.icio.us/post?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://del.icio.us/post?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at del.icio.us&quot; title=&quot;bookmark at del.icio.us&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;62,1,81,21&quot; href=&quot;<A HREF="view-source:http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=Bank%20Code%2FBIC%20Search&amp;bm_description=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://digg.com/submit?phase=2&amp;amp;url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=Bank%20Code%2FBIC%20Search&amp;amp;bm_description=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at digg.com&quot; title=&quot;bookmark at digg.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;82,1,101,21&quot; href=&quot;<A HREF="view-source:http://furl.net/storeIt.jsp?u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;t=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://furl.net/storeIt.jsp?u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;t=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at furl.net&quot; title=&quot;bookmark at furl.net&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;102,1,121,21&quot; href=&quot;<A HREF="view-source:http://www.linksilo.de/index.php?area=bookmarks&amp;func=bookmark_new&amp;addurl=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;addtitle=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.linksilo.de/index.php?area=bookmarks&amp;amp;func=bookmark_new&amp;amp;addurl=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;addtitle=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at linksilo.de&quot; title=&quot;bookmark at linksilo.de&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;122,1,141,21&quot; href=&quot;<A HREF="view-source:http://reddit.com/submit?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://reddit.com/submit?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at reddit.com&quot; title=&quot;bookmark at reddit.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;142,1,161,21&quot; href=&quot;<A HREF="view-source:http://www.spurl.net/spurl.php?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.spurl.net/spurl.php?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at spurl.net&quot; title=&quot;bookmark at spurl.net&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;162,1,181,21&quot; href=&quot;<A HREF="view-source:http://technorati.com/faves/?add=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html">http://technorati.com/faves/?add=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html</A>&quot; alt=&quot;bookmark at technorati.com&quot; title=&quot;bookmark at technorati.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;182,1,201,21&quot; href=&quot;<A HREF="view-source:http://www.google.com/bookmarks/mark?op=add&amp;hl=de&amp;annotation=&amp;labels=&amp;bkmk=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.google.com/bookmarks/mark?op=add&amp;amp;hl=de&amp;amp;annotation=&amp;amp;labels=&amp;amp;bkmk=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at google.com&quot; title=&quot;bookmark at google.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;202,1,221,21&quot; href=&quot;<A HREF="view-source:http://bookmarks.yahoo.com/toolbar/savebm?opener=bm&amp;ei=UTF-8&amp;u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;t=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://bookmarks.yahoo.com/toolbar/savebm?opener=bm&amp;amp;ei=UTF-8&amp;amp;u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;t=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at yahoo.com&quot; title=&quot;bookmark at yahoo.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;222,1,241,21&quot; href=&quot;<A HREF="view-source:http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;t=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;t=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at facebook.com&quot; title=&quot;bookmark at facebook.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;242,1,261,21&quot; href=&quot;<A HREF="view-source:http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.stumbleupon.com/submit?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at stumbleupon.com&quot; title=&quot;bookmark at stumbleupon.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;262,1,281,21&quot; href=&quot;<A HREF="view-source:http://www.propeller.com/submit/?U=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;T=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.propeller.com/submit/?U=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;T=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at propeller.com&quot; title=&quot;bookmark at propeller.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;282,1,301,21&quot; href=&quot;<A HREF="view-source:http://www.newsvine.com/_wine/save?popoff=1&amp;tags=&amp;u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;blurb=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.newsvine.com/_wine/save?popoff=1&amp;amp;tags=&amp;amp;u=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;blurb=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at newsvine.com&quot; title=&quot;bookmark at newsvine.com&quot; /&gt;&lt;area shape=&quot;rect&quot; coords=&quot;302,1,321,21&quot; href=&quot;<A HREF="view-source:http://www.jumptags.com/add/?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.">http://www.jumptags.com/add/?url=http%3A%2F%2Fwww.ibancalculator.com%2Fblz.html&amp;amp;title=You%20can%20either%20enter%20the%20bank%20name%20and%20city%20to%20determine%20the%20bank%20code%20%28or%20sort%20code%29%20and%20BIC%2C%20or%20you%20can%20enter%20the%20sort%20code%20and%20find%20out%20the%20bank%20name%2C%20city%2C%20and%20BIC.</A>&quot; alt=&quot;bookmark at jumptags.com&quot; title=&quot;bookmark at jumptags.com&quot; /&gt;&lt;/map&gt;
+<A NAME="line334"></A> &lt;br/&gt;Copyright &amp;copy; 2011 Theano GmbH
+<A NAME="line335"></A>&lt;/div&gt;
+<A NAME="line336"></A>
+<A NAME="line337"></A>  &lt;script type=&quot;text/javascript&quot; src=&quot;<A HREF="view-source:http://ad.adnet.de/inText.js">http://ad.adnet.de/inText.js</A>&quot;&gt;&lt;/script&gt;
+<A NAME="line338"></A>&lt;script type=&quot;text/javascript&quot;&gt;
+<A NAME="line339"></A>  keywordStyle.color=&quot;#ff6600&quot;;
+<A NAME="line340"></A>  keywordStyle.border=&quot;&quot;;
+<A NAME="line341"></A>  keywordStyle.textDecoration=&quot;underline&quot;;
+<A NAME="line342"></A>  adnetMaxKeywords=15;
+<A NAME="line343"></A>  collectKeywords(document.body, 17469, 0);
+<A NAME="line344"></A>&lt;/script&gt;
+<A NAME="line345"></A>
+<A NAME="line346"></A>&lt;script type='text/javascript'&gt;&lt;!--//&lt;![CDATA[
+<A NAME="line347"></A>   var m3_u = (location.protocol=='https:'?'https://ssla.typke.com/oxdel/myajsmy.php':'http://pwox.rcmwi.de/ox/www/delivery/myajsmy.php');
+<A NAME="line348"></A>   var m3_r = Math.floor(Math.random()*99999999999);
+<A NAME="line349"></A>   if (!document.MAX_used) document.MAX_used = ',';
+<A NAME="line350"></A>   document.write (&quot;&lt;scr&quot;+&quot;ipt type='text/javascript' src='&quot;+m3_u);
+<A NAME="line351"></A>   document.write (&quot;?zoneid=19&quot;);
+<A NAME="line352"></A>   document.write ('&amp;amp;cb=' + m3_r);
+<A NAME="line353"></A>   if (document.MAX_used != ',') document.write (&quot;&amp;amp;exclude=&quot; + document.MAX_used);
+<A NAME="line354"></A>   document.write (document.charset ? '&amp;amp;charset='+document.charset : (document.characterSet ? '&amp;amp;charset='+document.characterSet : ''));
+<A NAME="line355"></A>   document.write (&quot;&amp;amp;loc=&quot; + escape(window.location));
+<A NAME="line356"></A>   if (document.referrer) document.write (&quot;&amp;amp;referer=&quot; + escape(document.referrer));
+<A NAME="line357"></A>   if (document.context) document.write (&quot;&amp;context=&quot; + escape(document.context));
+<A NAME="line358"></A>   if (document.mmm_fo) document.write (&quot;&amp;amp;mmm_fo=1&quot;);
+<A NAME="line359"></A>   document.write (&quot;'&gt;&lt;\/scr&quot;+&quot;ipt&gt;&quot;);
+<A NAME="line360"></A>//]]&gt;--&gt;&lt;/script&gt;&lt;noscript&gt;&lt;a href='http://pwox.rcmwi.de/ox/www/delivery/myckmy.php?n=a2026cf0&amp;amp;cb=INSERT_RANDOM_NUMBER_HERE' target='_blank'&gt;&lt;img src='http://pwox.rcmwi.de/ox/www/delivery/myavwmy.php?zoneid=19&amp;amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;amp;n=a2026cf0' border='0' alt='' /&gt;&lt;/a&gt;&lt;/noscript&gt;
+<A NAME="line361"></A>
+<A NAME="line362"></A>
+<A NAME="line363"></A>&lt;!-- Piwik --&gt;
+<A NAME="line364"></A>&lt;script type=&quot;text/javascript&quot;&gt;
+<A NAME="line365"></A>var pkBaseURL = ((&quot;https:&quot; == document.location.protocol) ? &quot;https://ssla.typke.com/piwik/&quot; : &quot;http://pwox.rcmwi.de/pw/&quot;);
+<A NAME="line366"></A>document.write(unescape(&quot;%3Cscript src='&quot; + pkBaseURL + &quot;piwik.js' type='text/javascript'%3E%3C/script%3E&quot;));
+<A NAME="line367"></A>&lt;/script&gt;&lt;script type=&quot;text/javascript&quot;&gt;
+<A NAME="line368"></A>try {
+<A NAME="line369"></A>var piwikTracker = Piwik.getTracker(pkBaseURL + &quot;piwik.php&quot;, 3);
+<A NAME="line370"></A>piwikTracker.trackPageView();
+<A NAME="line371"></A>piwikTracker.enableLinkTracking();
+<A NAME="line372"></A>} catch( err ) {}
+<A NAME="line373"></A>&lt;/script&gt;&lt;noscript&gt;&lt;p&gt;&lt;img src=&quot;http://pwox.rcmwi.de/pw/piwik.php?idsite=3&quot; style=&quot;border:0&quot; alt=&quot;&quot;/&gt;&lt;/p&gt;&lt;/noscript&gt;
+<A NAME="line374"></A>&lt;!-- End Piwik Tag --&gt;
+<A NAME="line375"></A>
+<A NAME="line376"></A>&lt;!--
+<A NAME="line377"></A>###tisoomi###
+<A NAME="line378"></A>--&gt;
+<A NAME="line379"></A>
+<A NAME="line380"></A>
+<A NAME="line381"></A>
+<A NAME="line382"></A>
+<A NAME="line383"></A>&lt;/body&gt;
+<A NAME="line384"></A>&lt;/html&gt;</PRE><P STYLE="margin-bottom: 0in">
+<BR>
+</P>
+</BODY>
+</HTML>
